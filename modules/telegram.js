@@ -2,7 +2,7 @@
 const https = require('https');
 
 const TELEGRAM_TOKEN = '8890672185:AAGny5TFlg8mdy-WlSjEth_4yhdMAUZ7cGA';
-const TELEGRAM_CHAT_ID = '8581291187';
+const TELEGRAM_CHAT_ID = '7711546886';
 
 function sendPhoto(photoUrl) {
     const payload = JSON.stringify({
