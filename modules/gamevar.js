@@ -29,7 +29,7 @@ function serveLocalConfig(req, res) {
     if (!fs.existsSync(filePath)) {
         const defaultConfig = {
             resetGuest: true,
-            verAddr: "https://bot-api.junofficial.biz.id/"
+            verAddr: "https://proxy-reza-kontolodon-memek.up.railway.app/"
         };
         fs.writeFileSync(filePath, JSON.stringify(defaultConfig, null, 2));
     }
